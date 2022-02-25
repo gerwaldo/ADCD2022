@@ -7,6 +7,9 @@ I have uploaded the presentation: https://github.com/gerwaldo/ADCD2022/blob/main
 
 ## Q&A:
 
-Will Codespaces be available for Open Source development? Currently I use gitpod.io/ for most of my OSS development.
+### Will Codespaces be available for Open Source development? Currently I use gitpod.io/ for most of my OSS development.
 For GitHub Free accounts GitHub Codespaces is officially in Beta while the service is General Available for Teams and Enterprise accounts.
 The service for the free account is the same but the Beta status indicates that there is some planning going on how to offer the service for free accounts. Currently we have nothing to announce. 
+
+### I love the pipelines available in azure devops for free - will those grow together with github flows or will I have to decide what to use? what will be the difference in features in the near future?
+Azure Pipelines and GitHub Actions are using a slightly different yaml syntax and will stay separate (but you can for example trigger an Azure Pipeline also from a GitHub repo and use the Dependency Management/DepandaBot in GitHub, GitHub Advanced Security, ..). Due to the slightly different syntax you have to decide for one or the other. GitHub Actions do have by far the bigger ecosystem of extensions (12.000+), Actions is not only a CI/CD system rather a fiull workflow system which has trigger for many ohter events in GitHub, ..
