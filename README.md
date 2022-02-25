@@ -23,5 +23,5 @@ The extension section needs to look like this:
 		"ms-vscode.azurecli",
 		"ms-vscode.azure-account",
 		"ms-azuretools.vscode-azurefunctions"
-	],
+],
 ```
