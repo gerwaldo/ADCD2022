@@ -17,10 +17,11 @@ Azure Pipelines and GitHub Actions are using a slightly different yaml syntax an
 ### Demo
 You comments have been right - it was my fault by screwing up the extension list - sorry, I did not see the problem during the session.
 The extension section needs to look like this: 	
-
+```
 "extensions": [
 		"dbaeumer.vscode-eslint",
 		"ms-vscode.azurecli",
 		"ms-vscode.azure-account",
 		"ms-azuretools.vscode-azurefunctions"
 	],
+```
